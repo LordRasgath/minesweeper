@@ -49,6 +49,8 @@ public class minesweeper_main {
         if (feld.feldBomben[x+1][y+1]=='X'){
             System.out.println("D:");
             verloren=true;
+        } else {
+
         }
         }
     public  static void gewonnen(){
