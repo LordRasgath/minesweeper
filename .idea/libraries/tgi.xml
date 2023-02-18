@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tgi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tgi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
