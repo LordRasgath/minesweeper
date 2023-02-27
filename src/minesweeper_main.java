@@ -46,12 +46,6 @@ public class minesweeper_main {
             } while(!gewonnen || !verloren);
         }
     public static void bombenUmfeld(int x, int y){
-        if (feld.feldBomben[x+1][y+1]=='X'){
-            System.out.println("D:");
-            verloren=true;
-        } else {
-
-        }
         }
     public  static void gewonnen(){
         if (alleFelderAufgedeckt || flaggenAufBomben){
