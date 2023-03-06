@@ -46,6 +46,15 @@ public class minesweeper_main {
             } while(!gewonnen || !verloren);
         }
     public static void bombenUmfeld(int x, int y){
+        int anzahlBomben = 0;
+        if (feld.feldBomben[x+1][y+1]=='X'){
+            verloren = true;
+        } else{
+            if (feld.feldBomben[x+2][y+2]=='X'){
+
+            }
+        }
+
         }
     public  static void gewonnen(){
         if (alleFelderAufgedeckt || flaggenAufBomben){
